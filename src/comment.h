@@ -16,8 +16,8 @@ using namespace std;
 class commentary
 {
     public:
-	void init_commentary(string language_file);
-	string rand_comment(const char* event, ...);
+	void init_commentary(string lang_file);
+	string random_file(const char *event, ...);
 
 	friend commentary& the_commentary(void);
 
